@@ -1,0 +1,15 @@
+[package]
+name = "grpc-client"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+tonic = "0.13.1"
+tokio = { workspace = true }
+serde = { workspace = true }
+anyhow = { workspace = true }
+chrono = { workspace = true }
+async-trait = { workspace = true }
+
+[build-dependencies]
+tonic-build = "0.13.1"
